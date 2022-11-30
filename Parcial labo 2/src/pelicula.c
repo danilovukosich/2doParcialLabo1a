@@ -252,8 +252,8 @@ int OrdenarPeliculaGenero(void* pPelicula1, void* pPelicula2)
 
 		pelicula_getGenero(peliculaAux1, genero1);
 		pelicula_getGenero(peliculaAux2, genero2);
-		pelicula_getDuracion(peliculaAux1, duracion1);
-		pelicula_getDuracion(peliculaAux1, duracion2);
+		//pelicula_getDuracion(peliculaAux1, duracion1);
+		//pelicula_getDuracion(peliculaAux1, duracion2);
 
 		retorno=strcmp(genero1,genero2);
 	}
